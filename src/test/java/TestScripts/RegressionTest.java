@@ -7,7 +7,7 @@ import pages.login;
 
 public class RegressionTest extends TestHelper{
 
-    @Test
+   // @Test
     public void VerifyLogin(){
         login x = new login(driver);
         x.login("un","psd");
