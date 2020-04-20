@@ -25,7 +25,7 @@ public class RegressionTest extends TestHelper{
         Assert.assertTrue(true);
     }
 
-    @Test
+    //@Test
     public void VerifyLogin2(){
         login x = new login(driver);
         x.login("un","psd");
